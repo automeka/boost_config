@@ -1,0 +1,105 @@
+module boost_config {
+  export std.cstdlib
+
+  module cmath {
+    header "boost/config/no_tr1/cmath.hpp"
+    export std.cmath
+  }
+  module complex {
+    header "boost/config/no_tr1/complex.hpp"
+    export std.complex
+  }
+  module functional {
+    header "boost/config/no_tr1/functional.hpp"
+    export std.functional
+  }
+  module memory {
+    header "boost/config/no_tr1/memory.hpp"
+    export std.memory
+  }
+  module utility {
+    header "boost/config/no_tr1/utility.hpp"
+    export std.utility
+  }
+  module cstdint {
+    header "boost/cstdint.hpp"
+    export std.cstdint
+  }
+  module limits {
+    header "boost/limits.hpp"
+    export std.limits
+  }
+
+  header "boost/version.hpp"
+
+  header "boost/config.hpp"
+  header "boost/config/auto_link.hpp"
+  header "boost/config/warning_disable.hpp"
+
+  header "boost/detail/workaround.hpp"
+
+  header "boost/config/select_compiler_config.hpp"
+  header "boost/config/select_platform_config.hpp"
+  header "boost/config/select_stdlib_config.hpp"
+
+  textual header "boost/config/abi/borland_prefix.hpp"
+  textual header "boost/config/abi/borland_suffix.hpp"
+  textual header "boost/config/abi/msvc_prefix.hpp"
+  textual header "boost/config/abi/msvc_suffix.hpp"
+  textual header "boost/config/abi_prefix.hpp"
+  textual header "boost/config/abi_suffix.hpp"
+  textual header "boost/config/compiler/borland.hpp"
+  textual header "boost/config/compiler/clang.hpp"
+  textual header "boost/config/compiler/codegear.hpp"
+  textual header "boost/config/compiler/comeau.hpp"
+  textual header "boost/config/compiler/common_edg.hpp"
+  textual header "boost/config/compiler/compaq_cxx.hpp"
+  textual header "boost/config/compiler/cray.hpp"
+  textual header "boost/config/compiler/digitalmars.hpp"
+  textual header "boost/config/compiler/gcc.hpp"
+  textual header "boost/config/compiler/gcc_xml.hpp"
+  textual header "boost/config/compiler/greenhills.hpp"
+  textual header "boost/config/compiler/hp_acc.hpp"
+  textual header "boost/config/compiler/intel.hpp"
+  textual header "boost/config/compiler/kai.hpp"
+  textual header "boost/config/compiler/metrowerks.hpp"
+  textual header "boost/config/compiler/mpw.hpp"
+  textual header "boost/config/compiler/nvcc.hpp"
+  textual header "boost/config/compiler/pathscale.hpp"
+  textual header "boost/config/compiler/pgi.hpp"
+  textual header "boost/config/compiler/sgi_mipspro.hpp"
+  textual header "boost/config/compiler/sunpro_cc.hpp"
+  textual header "boost/config/compiler/vacpp.hpp"
+  textual header "boost/config/compiler/visualc.hpp"
+  textual header "boost/config/platform/aix.hpp"
+  textual header "boost/config/platform/amigaos.hpp"
+  textual header "boost/config/platform/beos.hpp"
+  textual header "boost/config/platform/bsd.hpp"
+  textual header "boost/config/platform/cray.hpp"
+  textual header "boost/config/platform/cygwin.hpp"
+  textual header "boost/config/platform/hpux.hpp"
+  textual header "boost/config/platform/irix.hpp"
+  textual header "boost/config/platform/linux.hpp"
+  textual header "boost/config/platform/macos.hpp"
+  textual header "boost/config/platform/qnxnto.hpp"
+  textual header "boost/config/platform/solaris.hpp"
+  textual header "boost/config/platform/symbian.hpp"
+  textual header "boost/config/platform/vms.hpp"
+  textual header "boost/config/platform/vxworks.hpp"
+  textual header "boost/config/platform/win32.hpp"
+  textual header "boost/config/posix_features.hpp"
+  textual header "boost/config/requires_threads.hpp"
+  textual header "boost/config/stdlib/dinkumware.hpp"
+  textual header "boost/config/stdlib/libcomo.hpp"
+  textual header "boost/config/stdlib/libcpp.hpp"
+  textual header "boost/config/stdlib/libstdcpp3.hpp"
+  textual header "boost/config/stdlib/modena.hpp"
+  textual header "boost/config/stdlib/msl.hpp"
+  textual header "boost/config/stdlib/roguewave.hpp"
+  textual header "boost/config/stdlib/sgi.hpp"
+  textual header "boost/config/stdlib/stlport.hpp"
+  textual header "boost/config/stdlib/vacpp.hpp"
+
+  header "boost/config/suffix.hpp"
+  header "boost/config/user.hpp"
+}
